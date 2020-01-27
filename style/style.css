@@ -1,0 +1,309 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	color: black;
+}
+body{
+	background-color: white;
+}
+@font-face {
+    font-family: 'logo';
+    src: url('../typeface/CodePredator.ttf'); /*URL to font*/
+}
+}
+#cleaner{
+	clear: both;
+}
+#wrapper{
+	width: 70%;
+	margin: 0px auto;
+}
+#topBar{
+	height: 53px;
+	background-color: #faa424;
+	border-radius: 10px 10px 0px 0px;
+}
+#logo{
+	font-family: 'logo';
+	padding: 0px 25px;
+	float: left;
+}
+#logo h1{
+	color: white;
+}
+#logo h1:hover{
+	color: black;
+}
+#register{
+	padding: 12px 25px;
+	float: right
+}
+#login{
+	padding: 12px 25px;
+	float: right
+}
+#login h2{
+	color: white;
+}
+#login h2:hover{
+	color: black;
+}
+#register h2{
+	color: white;
+}
+#register h2:hover{
+	color: black;
+}
+#banner{
+	height: 450px;
+}
+#banner img{
+	position: absolute;
+	min-width: 70%;
+	max-width: 70%;
+	min-height: 450px;
+	max-height: 450px;
+	overflow: hidden;
+}
+#menu{
+	height: 50px;
+	background-color: #faa424;
+}
+#menu ul{
+	padding-left: 10%;
+	padding-top: 4px; 
+	list-style: none;
+}
+#menu li{
+	width: 25%;
+	float: left;
+	color: white;
+}
+#menu h1{
+	color: white;
+}
+#menu h1:hover{
+	color: black;
+}
+#footer{
+	height: 50px;
+	background-color: #faa424;
+	border-radius: 0px 0px 5px 5px
+}
+#footer p{
+	text-align: center;
+	color: white;
+}
+input{
+	height: 25px;
+	border-radius: 5px;
+}
+#subContent{
+}
+iframe{
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	margin: none;
+	width: 100%;
+	height: 0px;
+	display: block;
+}
+#loginForm{
+	height: 300px;
+	background-color: lightgrey;
+}
+#loginErrors p{
+	color: red;
+}
+#loginForm span{
+	color: red;
+}
+#loginForm form{
+	text-align: center;
+	padding-top: 60px;
+	width: 30%;
+	margin: 0px auto;
+}
+#loginFrame iframe{
+	visibility: hidden;
+	height: 00px;
+}
+#registerForm{
+	height: 600px;
+	background-color: lightgrey;
+}
+#registerForm form{
+	text-align: center;
+	padding-top: 60px;
+	width: 30%;
+	margin: 0px auto;
+}
+#regiaterFrame iframe{
+	visibility: hidden;
+	height: 300px;
+}
+#registerForm span{
+	color: red;
+}
+#regErrors p{
+	color: red;
+}
+#contactForm{
+	height: 500px;
+	background-color: lightgrey;
+}
+#subject input{
+	height: 100px;
+}
+#contactForm form{
+	text-align: center;
+	padding-top: 60px;
+	width: 60%;
+	margin: 00px auto;
+}
+#contactForm input{
+	width: 100%;
+}
+#contactFrame iframe{
+	visibility: hidden;
+	height: 00px;
+}
+#aboutForm{
+	height: 240px;
+	background-color: lightgrey;
+	text-align: center;
+	padding-top: 60px;
+	width: 100%;
+	margin: 0px auto;
+}
+#aboutForm p{
+	margin: 0px 30px;
+}
+#aboutForm h1{
+	width: 300px;
+	text-align: center;
+	margin: 0px auto;
+}
+#aboutFrame iframe{
+	visibility: hidden;
+	height: 00px;
+}
+#newsForm{
+	height: 480px;
+	background-color: lightgrey;
+	text-align: center;
+	padding-top: 20px;
+	width: 100%;
+	margin: 0px auto;
+}
+#newsForm h1{
+	width: 100px;
+	text-align: center;
+	margin: 0px auto;
+}
+#newsFrame iframe{
+	visibility: hidden;
+	height: 00px;
+}
+#projectsForm{
+	height: 440px;
+	background-color: lightgrey;
+	text-align: center;
+	width: 100%;
+	margin: 0px auto;
+}
+#projectsForm h1{
+	width: 100px;
+	text-align: center;
+	margin: 0px auto;
+	display: inline;
+}
+#projectsFrame iframe{
+	visibility: hidden;
+	height: 00px;
+}
+#emframe{
+	float: right;
+	width: 80%;
+}
+textarea{
+	width: 100%;
+	height: 150px;
+}
+#projectsMenu{
+	float: left;
+	width: 200px;
+	text-align: middle;
+}
+#projectsMenu ul{
+	list-style-type: none;
+
+}
+#projectsMenu {
+	background-color: lightblue;
+	width: 20%;
+	height: 440px;
+	}
+#projectiFrame{
+	float: right;
+}
+#emframe{
+	height: 400px;
+	float: left;
+}
+#pmenu{
+	height: 440px;
+	background-color: lightblue;
+}
+#pmenu li{
+	width: 200;
+	background-color: lightblue;
+	color: black;
+}
+#pmenu li:hover{
+	color: darkgrey;
+}
+#pmenu ul li{
+	visibility: hidden;
+	height: 0px;
+	color: black;
+}
+.newsStory{
+	height: 400px;
+	width: 100%;
+}
+.centered {
+	width: 80%;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#newsForm h1
+	{
+	width: 400px;
+	}
+#newsForm img
+	{
+	width: 70%;
+	height: 460px;
+	border-radius: 25px;
+}
+#newsOne h1{
+	color: white;
+}
+#newsTwo h1{
+	color: black;
+}
+#newsThree h1{
+	color: black;
+}
+.cat{
+	background-color: lightblue;
+}
+.subCat{
+	background-color: lightskyblue;
+}
+
