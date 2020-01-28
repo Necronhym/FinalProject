@@ -24,9 +24,11 @@ function button( tag, frame, height="0px"){
 		{
 			for( var i = 0; i < $("#subContent").children().length; i++)
 				{
-					$("#subContent").find("iframe").css({"visibility": "hidden", "height":"0px"})[i];
+					$("#subContent").find("iframe").css({"visibility": "hidden"})[i];
+					$("#subContent").find("iframe").animate({"height": "0px"}, "fast");
 				}
-			$("#"+frame+" > iframe").css({"visibility": "visible", "height":height});
+			$("#"+frame+" > iframe").css({"visibility": "visible"});
+			$("#"+frame+" > iframe").animate({"height":height}, "fast");
 		});
 }
 function logo( tag, frame, height="0px"){
@@ -34,9 +36,11 @@ function logo( tag, frame, height="0px"){
 		{
 			for( var i = 0; i < $("#subContent").children().length; i++)
 				{
-					$("#subContent").find("iframe").css({"visibility": "hidden", "height":"0px"})[i];
+					$("#subContent").find("iframe").css({"visibility": "hidden"})[i];
+					$("#subContent").find("iframe").animate({"height": "0px"}, "fast");
 				}
-			$("#"+frame+" > iframe").css({"visibility": "visible", "height":height});
+			$("#"+frame+" > iframe").css({"visibility": "visible"});
+			$("#"+frame+" > iframe").animate({"height":height}, "fast");
 		});
 }
 function menuBar( tag, frame, height="0px"){
@@ -44,9 +48,11 @@ function menuBar( tag, frame, height="0px"){
 		{
 			for( var i = 0; i < $("#subContent").children().length; i++)
 				{
-					$("#subContent").find("iframe").css({"visibility": "hidden", "height":"0px"})[i];
+					$("#subContent").find("iframe").css({"visibility": "hidden"})[i];
+					$("#subContent").find("iframe").animate({"height": "0px"}, "fast");
 				}
 			$("#"+frame+" > iframe").css({"visibility": "visible", "height":height});
+			$("#"+frame+" > iframe").animate({"height":height}, "fast");
 		});
 }
 function menu(){
