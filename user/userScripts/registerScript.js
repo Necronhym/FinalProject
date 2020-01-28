@@ -48,12 +48,7 @@ document.getElementById('reg').addEventListener('click', function()
 				"rePassword": '^([A-Z]|[a-z]|[0-9]){3,10}$'
 			};
 		var Errors=[];
-/*
-		if( Inputs["firstName"].test(RegExp(RegExes["firstName"])) )
-			{
-				console.log(Inputs["firstName"]);
-			}	
-*/
+
 		Errors.push(compare( Inputs["firstName"], RegExes["firstName"], 'fn', "First name format incorect"));
 		Errors.push(compare( Inputs["lastName"], RegExes["lastName"], 'ln', "Last name format incorect"));
 		Errors.push(compare( Inputs["email"], RegExes["email"], 'em', "Email format incorect"));

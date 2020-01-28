@@ -81,3 +81,4 @@ $(document).ready(function()
 		menu();
 		$("#newsFrame iframe").css({"visibility": "visible", "height": 500});
 	});
+
